@@ -1,0 +1,32 @@
+{
+  "name": "react-flatten-children",
+  "description": "React utility to flatten fragments.",
+  "keywords": [
+    "react",
+    "utility",
+    "children",
+    "flatten",
+    "fragment"
+  ],
+  "version": "1.0.0",
+  "author": "Greg Bergé <berge.greg@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "source": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "microbundle --external react"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "microbundle": "^0.6.0",
+    "react": "^16.5.2"
+  }
+}
