@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/travis/smooth-code/react-flatten-children.svg)](https://travis-ci.org/smooth-code/react-flatten-children)
 [![DevDependencies](https://img.shields.io/david/dev/smooth-code/react-flatten-children.svg)](https://david-dm.org/smooth-code/react-flatten-children?type=dev)
 
-React utility to flatten fragments 🗜.
+React utility to flatten fragments 🗜
 
 ```sh
 npm install react-flatten-children
@@ -54,7 +54,7 @@ export default Routes
 
 In many cases you have to introspect children, it can be to [use the first route matching a path](https://reacttraining.com/react-router/web/api/Switch), extract the label of a tab, or another use case.
 
-React considers fragments as children, even if it is in fact a group of children. This package flatten children and make your component API compatible with fragments. Users expect your library to be compatible with fragments. If you want to avoid tons of issues (see https://github.com/ReactTraining/react-router/issues/5917, https://github.com/ReactTraining/react-router/issues/5785), you should use it!
+React considers fragments as children, even if it is in fact a group of children. This package flattens children and makes your component API compatible with fragments. Users expect your library to be compatible with fragments. If you want to avoid tons of issues (see https://github.com/ReactTraining/react-router/issues/5917, https://github.com/ReactTraining/react-router/issues/5785), you should use it!
 
 # License
 
