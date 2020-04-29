@@ -15,6 +15,10 @@
   "module": "dist/react-flatten-children.esm.js",
   "typings": "dist/index.d.ts",
   "repository": "github:gregberge/react-flatten-children",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/gregberge"
+  },
   "scripts": {
     "prepublishOnly": "yarn build",
     "release": "standard-version && conventional-github-releaser --preset angular",
