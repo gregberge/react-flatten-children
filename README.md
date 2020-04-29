@@ -1,9 +1,9 @@
 # react-flatten-children
 
-[![License](https://img.shields.io/npm/l/react-flatten-children.svg)](https://github.com/smooth-code/react-flatten-children/blob/master/LICENSE)
+[![License](https://img.shields.io/npm/l/react-flatten-children.svg)](https://github.com/gregberge/react-flatten-children/blob/master/LICENSE)
 [![npm package](https://img.shields.io/npm/v/react-flatten-children/latest.svg)](https://www.npmjs.com/package/react-flatten-children)
-[![Build Status](https://img.shields.io/travis/smooth-code/react-flatten-children.svg)](https://travis-ci.org/smooth-code/react-flatten-children)
-[![DevDependencies](https://img.shields.io/david/dev/smooth-code/react-flatten-children.svg)](https://david-dm.org/smooth-code/react-flatten-children?type=dev)
+[![Build Status](https://img.shields.io/travis/gregberge/react-flatten-children.svg)](https://travis-ci.org/gregberge/react-flatten-children)
+[![DevDependencies](https://img.shields.io/david/dev/gregberge/react-flatten-children.svg)](https://david-dm.org/gregberge/react-flatten-children?type=dev)
 
 React utility to flatten fragments 🗜
 
@@ -14,18 +14,18 @@ npm install react-flatten-children
 ## Example
 
 ```js
-import React from 'react'
-import { Switch as BaseSwitch } from 'react-router'
-import flattenChildren from 'react-flatten-children'
-import PublicHome from './PublicHome'
-import PrivateHome from './PrivateHome'
-import Account from './Account'
-import Login from './Login'
+import React from "react";
+import { Switch as BaseSwitch } from "react-router";
+import flattenChildren from "react-flatten-children";
+import PublicHome from "./PublicHome";
+import PrivateHome from "./PrivateHome";
+import Account from "./Account";
+import Login from "./Login";
 
 // Create a fragment ready Switch
 const Switch = ({ children }) => (
   <BaseSwitch>{flattenChildren(children)}</BaseSwitch>
-)
+);
 
 const Routes = ({ isLoggedIn }) => (
   <Switch>
@@ -43,9 +43,9 @@ const Routes = ({ isLoggedIn }) => (
     <Route path="/about" component={About} />
     <Redirect to="/" />
   </Switch>
-)
+);
 
-export default Routes
+export default Routes;
 ```
 
 👉 [Checkout an interactive example on CodeSandbox](https://codesandbox.io/s/nn6l3r30k0)
