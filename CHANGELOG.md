@@ -1,6 +1,13 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.1.0](https://github.com/gregberge/react-flatten-children/compare/v1.0.0...v1.1.0) (2020-04-29)
+
+
+### Features
+
+* **typescript:** add types ([#10](https://github.com/gregberge/react-flatten-children/issues/10)) ([a389780](https://github.com/gregberge/react-flatten-children/commit/a3897805876caec5eb4a2eefd15782e524778d10))
 
 <a name="1.0.0"></a>
 
